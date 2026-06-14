@@ -1,4 +1,3 @@
-
 import streamlit as st
 
 from groq import Groq
@@ -204,6 +203,5 @@ if user_input:
     #  Save Zara's reply to memory too!
 
     st.session_state["messages"].append({"role": "assistant", "content": reply})
-
 
 
